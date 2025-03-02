@@ -1,0 +1,42 @@
+.container{
+    display: flex;
+    height: 100%;
+    width: 100%;
+    background-color: whitesmoke;
+    justify-content: space-around;
+    align-items: center;
+    justify-items: center;
+}
+.menu{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.menu>li>a{
+    text-decoration: none;
+    color:black;
+}
+input{
+    height: 30px;
+    width: 200px;
+    border-radius: 5px;
+    border: 0;
+}
+.box{
+    display: flex;
+    flex-direction: row;
+    justify-items: center;
+    align-items: center;
+    justify-content: center;
+    color: palevioletred;
+    padding: 10px;
+    background-color: pink;
+    border-radius: 5px;
+    width: 150px;
+}
+.avt-wrapper{
+    display: flex;
+    gap: 30px;
+    align-items: center;
+    justify-items: center;
+}
