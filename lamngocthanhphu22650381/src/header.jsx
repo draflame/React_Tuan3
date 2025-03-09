@@ -8,7 +8,7 @@ function Header(){
         <>
         <div className="container">
             <img src={chefify} alt="" />
-            <input type="text" />
+            <input type="text" placeholder='What would you liek to cook?' />
             <ul className='menu'>
                 
                 <li><a href="#">What to cook</a></li>
