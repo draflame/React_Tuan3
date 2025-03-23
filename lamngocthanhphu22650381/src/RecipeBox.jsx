@@ -14,6 +14,7 @@ useEffect(()=>{
 },[])
 
     return(
+        
         <div className="cardList">
             {data.map((item)=>(
                 <Card data={item}></Card>
